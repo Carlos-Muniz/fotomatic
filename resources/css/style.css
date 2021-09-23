@@ -25,8 +25,13 @@ html {
 }
 
 .image-container img {
+  position: relative;
   display: block;
-  margin: 32px 32px 40px 32px;
+  width: 90%;
+  height: 65%;
+  top: 2rem;
+  left: 2rem;
+  margin-bottom: 40px;
 }
 
 @media only screen and (max-width: 760px) {
@@ -231,6 +236,7 @@ header .mobile {
   padding: 2rem;
   margin: 0px 1.25rem;
   background-color: white;
+  height: 635px;
 }
 
 .feature .image-container {
@@ -306,6 +312,7 @@ header .mobile {
 #filters-section .images-container {
   max-width: 100%;
   padding: 0 1%;
+  display: flex;
 }
 
 @media only screen and (max-width: 760px) {
