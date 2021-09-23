@@ -26,6 +26,7 @@ html {
 
 .image-container img {
   display: block;
+  margin: 32px 32px 40px 32px;
 }
 
 @media only screen and (max-width: 760px) {
